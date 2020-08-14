@@ -1,0 +1,61 @@
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "돋움";   font-size: 14px; }
+img { border: 0;}
+ul { list-style-type: none; }
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #FFF456; }
+a:hover { text-decoration:none; color: #FFF456; }
+a:visited { text-decoration:none; color: #FFF456; }
+a:active { text-decoration:none; color: #FFF456; }
+
+/* 폰트 정보 */
+@font-face
+{ font-family: 'main_font'; 
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') 
+format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'normal_font'; 
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine@1.1/BBTreeGR.woff')
+format('woff'); font-weight: normal; font-style: normal; }
+
+/* 상단 헤더 */
+#top { position: relative; width: 1000px; height: 80px; margin: 50px auto; }
+#top p {text-align: center;}
+#top p a{font-family: 'main_font'; font-size : 60px; color:#000000;}
+#top #p2{font-family: 'normal_font'; font-size : 15px; color : #D28164;
+    margin-top : 10px; text-align: right;}
+#menu_bar { height: 48px; 
+	background-color: #A76034;
+    font-size: 16px; font-family: main_font;}
+#menu_bar ul { width: 1000px; margin: 0 auto; padding: 14px 0 0 40px; font-family: main_font; color: #FFFFFF;}
+#menu_bar li { display: inline; margin-left: 90px; color: #FFFFFF; }
+#main_img {text-align: center; margin: 30px;}
+
+
+
+
+#menu h2{font-family: 'main_font'; font-size: 32px; 
+    border-bottom: solid; border-color:#D28164;
+    margin: 60px 130px 30px 130px}
+#menu ul{font-family:'normal_font'; font-size: 15px; margin : 10px 180px 10px 180px}
+#menu li{font-family: 'normal_font'; font-size: 15px;}  
+#menu p {font-family: 'normal_font'; font-size: 15px; margin-top: 30px; text-align: right;}
+
+
+
+
+
+#content h2{font-family: 'main_font'; font-size: 32px; 
+    border-bottom: solid; border-color:#D28164;
+    margin: 60px 130px 30px 130px}
+#content ul{font-family:'normal_font'; font-size: 15px;
+    border-bottom: solid; border-color:#dddddd;
+    margin : 10px 180px 30px 180px}
+#content li{font-family: 'normal_font'; font-size: 15px;
+    margin-top: 15px;}  
+#content ul #middle_title{font-family: 'normal_font';font-size: 20px; font-weight: bold;
+    border-bottom: solid; border-color: #FFF456}
+#content p {font-family: 'normal_font'; font-size: 15px; margin-top: 30px; text-align: right;}

@@ -1,0 +1,42 @@
+<!--mask_nearby.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마스크 알리미</title>
+    <link rel="stylesheet" href="./mask_nearby.css">
+    <!-- fontawsome cdn 아이콘을 쓰기 위한 구문 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <div class="back-btn-wrapper">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+    </header>
+    <!-- div.클래스 이름해서 만들면 바로 div생성! -->
+    <!-- input#id이름 해서 만들면 바로 input생성! -->
+    <section>
+        <div id="main">
+            <div class="search-bar-positioner">
+                <div class="search-bar-wrapper">
+                    <input type="text" id="search-bar" placeholder="목적지를 검색하시오.">
+                    <div class="search-btn">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+    <script type="text/javascript"
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ad7763e38eec21ab781cc74e5e28d758&libraries=services"></script>
+    <script type="text/javascript" src="./mask_nearby.js"></script>
+</body>
+
+</html>

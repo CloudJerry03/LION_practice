@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JERRY's CheatSheet</title><!--위에 탭 안에 써지는 문구-->
+</head>
+<body>
+    <div id = top>
+        <p><a href = "../index.html">JERRY's CheatSheet</a></p>
+        <div id = p2>MADE BY JERRY</div>
+    </div>
+    <div id = menu_bar>
+        <ul>
+            <li><a href="../index.html">MAIN</a></li>
+            <li><a href="../lecture.html">LIKELION_LECTURE</a></li>
+            <li><a href="">LIKELION_PROJECT</a></li>
+            <li><a href="">OTHER</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h2>Github > 명령어</h2>
+        <ul><div id="middle_title">Github Repository</div>
+            <li>1. Repository > New 선택</li>
+            <li>2. Create a new Repository </li>
+            <li>Repository name = 이름 작성</li>
+            <li>Description = 레포지터리에 대한 설명(필수 아님)</li>
+            <li>Public -> 공유 설정</li>
+            <li>Create Repository 선택</li>
+            <li>3. URL복사</li>
+        </ul>
+        <ul><div id="middle_title">TERMINAL명령어</div>
+            <li>1. $ git init</li>
+            <li>2. $ git remote origin "Repository 주소"</li>
+            <li>3. $ git add .</li>
+            <li>4. $ git commit -m "원하는 내용"</li>
+            <li>5. $ git push origin master</li>
+            <li>수정시 3-5 반복</li>
+        </ul>
+        <ul><div id="middle_title">Repository 주소 변경방법</div>
+            <li>$ git remote remove origin</li>
+            <li> - origin에 연결 된 것을 삭제</li>
+            <li>$ git remote add origin "Repository 주소"</li>
+            <li> - 변경할 다른 주소 입력</li>
+            <li>그 후 TERMINAL 명령어 3 - 5 다시하기</li>
+        </ul>
+        <ul><div id="middle_title">Netlify 배포</div>
+            <li>1.Netlify 들어가기</li>
+            <li><a href="https://www.netlify.com/">[Netlify Link]</a></li>
+            <li>2.회원가입 - Github계정으로 가입</li>
+            <li>3. 'New site from Git' 선택</li>
+            <li>4. 'GitHub' 선택</li>
+            <li>5. 배포할 Repository 선택</li>
+            <li> - Publish directory는 자신의 index.html이 들어가있는 폴더가 처음 폴더가 아닌 경우 작성</li>
+            <li>6. 'Deploy advanced' 선택</li>
+            <li>7. url이 생성되기를 기다림</li>
+            <li>8. 생성된 url로 들어가면 Repository 에 있던 index.html로 접속 되어짐</li>
+        </ul>
+        <ul><div id="middle_title">Branch 관련 명령어</div>
+            <li>$ git branch 브랜치명</li>
+            <li>$ git checkout 브랜치명</li>
+            <li>$ git checkout -b 브랜치명</li>
+            <li>$ git push origin 브랜치명</li>
+            <li>$ git pull origin 브랜치명</li>
+            <li>$ git clone "Repository주소"</li>
+            <li>$ git status</li>
+        </ul>
+        <ul><div id="middle_title">Fork</div>
+            <li>1. 작업하고 싶은 Repository fork</li>
+            <li>$ mkdir 폴더명</li>
+            <li>$ cd 폴더명</li>
+            <li>$ git clone "Repository 주소"</li>
+            <li>$ code .</li>
+            <li>$ git status</li>
+            <li>$ git add .</li>
+            <li>$ git commit -m "변경사항메모"</li>
+            <li>$ git checkout -b 브랜치명</li>
+            <li>$ git push origin 브랜치명</li>
+        </ul>
+        <p>ver.200729</p>
+    </div>  
+</body>
+</html>
