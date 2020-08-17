@@ -25,7 +25,13 @@
     - [3 - 7 CRUD#1](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/3%20-%207%20CRUD%231.md)
     - [3 - 8 CRUD#2](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/3%20-%208%20CRUD%232.md)
 
-4. 자소설 - 4강
+4. 자소설 - [(4강 - sosel)](https://github.com/CloudJerry03/4_sosel)
    - [4 - 1 자소설 닷컴 만들기](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%201%20%EC%9E%90%EC%86%8C%EC%84%A4%20%EB%8B%B7%EC%BB%B4%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
    - [4 - 2 모델과 데이터베이스](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%202%20%EB%AA%A8%EB%8D%B8%EA%B3%BC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4.md)
-   - [4 - 3 ModelForm]()
+   - [4 - 3 ModelForm](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%203%20ModelForm.md)
+   - [4 - 4 Primary Key](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%204%20Primary%20Key.md)
+   - [4 - 5 User#1](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%205%20User%231.md)
+   - [4 - 6 User#2](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%206%20User%232.md)
+   - [4 - 7 Foreign Key](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%207%20Foreign%20Key.md)
+   - [4 - 8 댓글만들기](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%208%20%EB%8C%93%EA%B8%80%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+   - [4 - 9 글자수 세기](https://github.com/CloudJerry03/LION_practice/blob/master/CheatSheet_practice/4%20-%209%20%EA%B8%80%EC%9E%90%EC%88%98%20%EC%84%B8%EA%B8%B0.md)
